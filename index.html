@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- JS do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Link Favicon -->
+    <link rel="shortcut icon" href="imagens/Simbolo-original.ico" type="image/x-icon">
+    <!-- Link ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Anistemi - A Better You</title>
+</head>
+
+<body>
+    <!-- COMEÇO HEADER -->
+    <header class="background-principal">
+        <!-- COMEÇO NAV -->
+        <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
+            <div class="container-fluid position-relative">
+                <!-- LOGO À ESQUERDA -->
+                <a class="navbar-brand mx-auto mx-lg-0" href="index.html">
+                    <img src="imagens/logo-original-header.png" width="180" alt="Logo da Escola de Idiomas Anistemi">
+                </a>
+                <!-- BOTÃO DE COLAPSO -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarConteudo">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- CONTEÚDO COLAPSÁVEL -->
+                <div class="collapse navbar-collapse justify-content-between" id="navbarConteudo">
+                    <!-- ITENS MENU -->
+                    <ul class="navbar-nav mx-auto navbar-nav-center mb-2 mb-lg-0 text-center menu">
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#quem-somos">Quem Somos?</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#cards">Metodologia</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#">Depoimentos</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#">Contatos</a>
+                        </li>
+                    </ul>
+                    <!-- BOTÕES À DIREITA -->
+                   <div class="d-flex flex-row gap-2 align-items-lg-center justify-content-center botao-acoes">
+                        <a href="#" class="btn btn-outline-primary btn-login">Login</a>
+                        <a href="#" class="btn btn-primary btn-inscrevase">Inscreva-se</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- FINAL NAV -->
+        <!-- COMEÇO CONTEÚDO PRINCIPAL -->
+        <!-- TEXTO PRINCIPAL -->
+        <section class="container conteudo-principal">
+            <div class="row alt">
+                <div class="col-12 col-md-6 order-1 order-md-1 mb-4 mb-md-0">
+                    <h2>O MUNDO FALA</h2>
+                    <h2>E VOCÊ ENTENDE</h2>
+                    <p>Aqui, você aprende a acompanhar,<br>entender e fazer parte dele.</p>
+                    <h3>POR QUE NOS <span>CONTRATAR</span> <i class="fa-solid fa-angle-down"></i> </h3>
+                    <p id="conteudo-principalp">Após 5 anos de estudo, chegamos a três formas <br>de te ajudar a chegar a sua fluência.</p>
+                </div>
+                <!-- VÍDEO À ESQUERDA -->
+                <div class="col-12 col-md-6 order-2 order-md-1  video-principal">
+                    <div class="ratio ratio-16x9">
+                       <iframe src="https://www.youtube.com/embed/MuBNiXY5BsM?si=lJf9qbHX1xrt6wb4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FINAL CONTEÚDO PRINCIPAL -->
+    </header>
+    <!-- FINAL HEADER -->
+
+    <!--COMEÇO SECTION-->
+    <!--COMEÇO CARD FALA COMIGO-->
+    <section class="container-cards">
+        <div class="cards" id="cards">
+            <div class="icon-falacomigo">
+                <i class="fa-solid fa-circle-user"></i>
+            </div>
+            <h2>Fala Comigo!</h2>
+            <p>Descubra como falar suas <br> palavras em outro idioma <br> já  na primeira aula!</p>
+        </div>
+        <!--FIM CARD FALA COMIGO-->
+        <!--COMEÇO CARD ROTINA DE APRENDIZAGEM-->
+        <div class="cards">
+            <div class="icon-seminibicao">
+                <i class="fa-solid fa-user-group"></i>
+            </div>
+            <h2>Sem Inibição!</h2>
+            <p>Aprenda a falar outro idioma<br>em público, vecendo a <br>vergonha! </p>
+        </div>
+        <!--FIM CARD ROTINA DE APRENDIZAGEM-->
+        <!--COMEÇO  CARD SEM INIBIÇÃO-->
+        <div class="cards">
+            <div class="icon-rotina-de-aprendizagem">
+                <i class="fa-solid fa-calendar-days"></i>
+            </div>
+            <h2>Rotina de <br>Aprendizagem</h2>
+            <p>Aprenda um novo idioma dentro<br>da sua rotina!</p>
+        </div>
+        <!--FIM  CARD SEM INIBIÇÃO-->
+    </section>
+    <!--FIM SECTION-->
+
+    <section class="container conteudo-saibamais" id="quem-somos">
+            <div class="row alt">
+                <div class="col-12 col-md-6 order-1 order-md-1 mb-4 mb-md-0">
+                    <h3><span class="fundo-laranja">Es</span>queça o ensino do engessado! <br> Anistemi, um novo jeito de <span class="negrito-laranja">Aprender!</span></h3>
+                    <div class="texto1">
+                        <p>A Anistemi é uma escola de idiomas onde você é o foco. Nossa missão vai além do ensino: queremos transformar vidas e ajudar o Brasil a crescer, aumentando o número de falantes de inglês de 5% para 15%.</p>
+                    </div>
+                    <div class="texto2">
+                        <p>Saiba Mais...</p>
+                    </div>
+                </div>
+                <!-- VÍDEO À ESQUERDA -->
+                <div class="col-12 col-md-6 order-2 order-md-1  video-principal">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/QoTfOVYXmUc?si=9c3aOqtPrItRVs7z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="container testemunho">
+            <div class="row alt">
+                <div class="col-12 col-md-6 order-1 order-md-1 mb-4 mb-md-0">
+                    <div class="texto-com-linha">
+                        <div class="linha-roxa"></div>
+                        <span>TESTEMUNHO</span>
+                    </div>
+                    <h3>Quem viveu, conta!</h3>
+                    <p class="texto-testemunhosecundario">A jornada na Anistemi transforma vidas.</p>
+                    <p class="texto-testemunho-terciario">E ninguém melhor para provar isso do que quem já passou por aqui</p>
+                    <p class="texto-testemunho-quaternario">Confira a história da nossa aluna destaque!</p>
+                    <div class="container-botao">
+                        <a href="#" class="botao">Veja mais avaliações</a>
+                    </div>
+                </div>
+                <!-- VÍDEO À ESQUERDA -->
+                <div class="col-12 col-md-6 order-2 order-md-1  video-principal">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/_KLQnMyOE2Q?si=e8cEDbbC6AwavOdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--COMEÇO SECTION DEPOIMENTOS-->
+    <section class="container-depoimentos" id="depoimentos">
+        <!-- COMEÇO CARD 1-->
+        <div class="depoimentos">
+            <h2>NOSSOS DEPOIMENTOS</h2>
+            <p>Cada aluno tem uma história para contar. Veja mais avaliações e descubra como a Anistemi transforma vidas. Seu nome pode ser o próximo!</p>
+    </section>
+    <!--FIM SECTION DEPOIMENTOS-->
+
+    <!--COMEÇO DEPOIMENTOS USUARIO D1-->
+    <section class="container-cards-depoimentos">
+        <div class="cards-depoimentos">
+            <img src="imagens/imagem-do-usuario-com-fundo-preto.png" alt="">
+            <h2>Dra. Moniky Brito</h2>
+            <p>As aulas vão muito além do aprendizado do inglês — são momentos de crescimento, leveza, risadas e motivação. Tem sido incrível evoluir a cada dia e saber que conto com seu apoio constante faz toda a diferença. Sou imensamente grata pela paciência, dedicação e por sempre acreditar no meu potencial. Seu jeito leve e divertido de ensinar transforma cada aula em uma experiência única. É um privilégio ter, nessa jornada, não só um excelente professor, mas também um verdadeiro amigo.</p>
+            <div class="estrelas">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+        </div>
+        <!--FIM DEPOIMENTO 1-->
+
+        <!--COMEÇO DEPOIMENTO 2-->
+        <div class="cards-depoimentos">
+            <img src="imagens/imagem-do-usuario-com-fundo-preto.png" alt="">
+            <h2>Dra. Bruna Oliveira</h2>
+            <p>Olá, Cae! Sempre tive dificuldades com o inglês e cheguei a sentir vergonha de falar por medo de errar. Quando o mestrado exigiu esse conhecimento, precisei correr atrás — e foi aí que seu curso mudou tudo. Hoje me sinto muito mais segura para me expressar, e até meu interesse pelo idioma cresceu. Ainda tenho muito a aprender, mas sua forma acolhedora e leve de ensinar faz toda a diferença. Aprender inglês com você é, de verdade, se apaixonar pelo idioma. Obrigada por tornar essa jornada tão especial!</p>
+            <div class="estrelas">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+        </div>
+        <!--FIM DEPOIMENTO 2-->
+
+        <!--COMEÇO DEPOIMENTO 3-->
+        <div class="cards-depoimentos">
+            <img src="imagens/imagem-do-usuario-com-fundo-preto.png" alt="">
+            <h2>Carolaine Miranda, Pedagoga</h2>
+            <p>Olá, Cae! Aqui vai o meu feedback: quando comecei, eu era bem crua no inglês — sabia apenas o básico ensinado na escola. Hoje já percebo o quanto evoluí. Consigo entender partes de músicas, compreender conversas e, o mais importante, me sinto muito mais confiante. Ver essa evolução é motivador e torna o aprendizado ainda mais leve e divertido. Sinto, de verdade, que estou aprendendo!</p>
+            <div class="estrelas">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+        </div>
+        <!--FIM DEPOIMENTO 3-->
+    </section>
+    <!--FIM DEPOIMENTOS USUARIO D1-->
+
+    <!--COMEÇO SECTION FORMULARIO-->
+    <section class="container-formulario">
+        <div class="formulario">
+            <h4>Ainda tem alguma dúvida?</h4>
+            <p>E-mail:</p>
+            <input class="email" type="email" placeholder="Insira seu e-mail:">
+            <p>Nome:</p>
+            <input class="nome" type="email" placeholder="Insira seu nome completo:">
+            <p>Sua mensagem:</p>
+            <input class="campo-mensagem" type="textarea" placeholder="">
+            <div class="container-suamensagem"><a href="#">ENVIAR</a></div>
+        </div>
+    </section>
+    <!--FIM SECTION FORMULARIO-->
+
+    <!--COMEÇO SECTION FOOTER-->
+    <footer class="footer">
+        <a href="index.html">
+            <img src="imagens/logo-original-header.PNG" alt="Logo da Escola de Idiomas Anistemi" width="180">
+        </a>
+        <ul class="termosecondicoes">
+            <a href="#">Carreira</a> <span class="traco">|</span>
+            <a href="#">Política e Privacidade</a> <span class="traco">|</span>
+            <a href="#">Termos e Condições</a> <span class="traco"></span>
+        </ul>
+        <p class="reservado">© 2025 Anestemi. Todos os direitos reservados.</p>
+        <!--<p class="desenvolvido">Desenvolvido e criado por <a href="#">Thiago Brito</a> e <a href="https://www.instagram.com/xavierpaulogabriel?igsh=MXdtMGRhM2k1MmxnNA==">Paulo Gabriel</a></p>-->
+        <div>
+            <ul class="redes">
+                <p>Redes Sociais:</p>
+                <a href="#">
+                    <i class="fa-brands fa-facebook"></i> 
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </ul>
+        </div>
+    </footer>
+    <!--FIM FOOTER-->
+
+
+
+    
+    
+
+</body>
+</html>
