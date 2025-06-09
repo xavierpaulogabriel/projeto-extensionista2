@@ -11,7 +11,6 @@
 
 html{
     scroll-behavior: smooth;
-    background-color: #EEEEEE;
 }
 
 body{
@@ -22,8 +21,13 @@ body{
 /* COMEÇO HEADER */
 .background-principal{
     background: linear-gradient(135deg, #FF6A00 0%, #FF3A5E 50%, #8F2EFF 100%);
-    height: 80vh;
+    height: 80dvh;
     padding-top: 100px;
+}
+
+.navbar-toggler{
+    border: none;
+    color: white;
 }
 
 .navbar{
@@ -51,23 +55,28 @@ body{
     color: #64018F;
 }
 
-.btn-login{
-    border: none;
+.btn-login-custom{
+    text-decoration: none;
     color: black;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 25px;
     background-color: white;
 }
 
-.btn-login:hover{
+.btn-login-custom:hover {
     background-color: #64018F;
+    color: white;
+
 }
 
-.btn-inscrevase {
-    border: none;
+
+.btn-inscrevase-custom {
+    text-decoration: none;
     color: white;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -75,18 +84,21 @@ body{
     font-style: normal;
     font-size: 16px;
     background-color: rgba(0, 0, 0, 0.3);
+    padding: 12px 20px;
+    border-radius: 25px;
 }
 
-.btn-inscrevase:hover{
-    background-color: #64018F;
+.btn-inscrevase-custom:hover{
+    background-color: #E55E19;
 }
 
 /* COMEÇO SECTION CONTEÚDO PRINCIPAL */
+
 .conteudo-principal h2{
     color: white;
     letter-spacing: -2px;
     font-size: 40px;
-     font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
@@ -118,6 +130,24 @@ body{
 .video-principal iframe{
     border-radius: 25px;
 }
+
+.btn-wpp-custom {
+    padding: 12px 20px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #552084;
+    border-radius: 25px;
+    text-align: center;
+}
+.btn-wpp-custom i{
+    margin-right: 10px;
+    font-size: 25px;
+}
 /* FINAL SECTION CONTEÚDO PRINCIPAL */
 /* FINAL HEADER */
 
@@ -132,7 +162,7 @@ body{
     justify-content: center;
     gap: 35px;
     position: relative;
-    margin-top: -70px;
+    margin-top: -55px;
 }
 
 .cards{
@@ -476,6 +506,7 @@ input::placeholder{
 
 .campo-mensagem{
     height: 100px;
+    width: 100;
 }
 
 .email, .nome, .campo-mensagem{
@@ -535,6 +566,30 @@ input::placeholder{
 }
 
 .container-suamensagem a:hover{
+    background-color: #E55E19;
+}
+
+.container-suamensagem button {
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    background-color: #67038d;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+    padding: 15px 25px;
+    border-radius: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    transition: all 0.3s ease;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.container-suamensagem button:hover {
     background-color: #E55E19;
 }
 /*F FORMULARIO*/
@@ -628,7 +683,7 @@ input::placeholder{
 /* 📱 Pequenos celulares (320px a 376px) */
 @media (max-width: 376px) {
   .background-principal{
-    height: 100vh;
+    height: 110vh;
   }
 
   .conteudo-principal h2{
@@ -957,4 +1012,3 @@ input::placeholder{
 @media only screen and (orientation: landscape) {
    
 }
-
